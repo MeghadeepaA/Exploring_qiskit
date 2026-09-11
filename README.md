@@ -1,6 +1,15 @@
-In this repository I try to explore quiskit.
+# Exploring Qiskit — Trotterization experiments
 
-Hamiltonian: Long range transverse field Ising model 
+What this is
+------------
+Simulations and notebooks exploring Trotterized real-time dynamics of the 2D transverse‑field Ising model, comparing 1st, 2nd and 4th order decompositions against exact diagonalization and toy depolarizing noise models. Intended for researchers and students experimenting with small-scale quantum simulation using Qiskit.
 
-1. "Project_1_Trotterization": Here Trotterization of different order has been implimented in the Hamiltonian. 
+Stack
+-----
+- **Language(s):** Python (notebooks)
+- **Runtime:** CPython 3.8+ (Jupyter)
+- **Notable libraries:** qiskit (qiskit-terra), qiskit-aer, numpy, matplotlib
+
+How it's organized
+------------------
 
