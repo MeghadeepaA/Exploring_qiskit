@@ -10,10 +10,6 @@ Stack
 - **Runtime:** CPython 3.8+ (Jupyter)
 - **Notable libraries:** qiskit (qiskit-terra), qiskit-aer, numpy, matplotlib
 
-How it's organized
-------------------
-
-
 How it fits together
 --------------------
 The notebooks construct the TFIM Hamiltonian (SparsePauliOp), build Trotter step circuits for different orders (rx and rzz gates), and compare Trotterized evolution (Statevector or density-matrix simulation with AerSimulator) to exact diagonalization from the Hamiltonian eigen-decomposition. Plotting helpers produce magnetization, correlation, and infidelity figures; the noise model is a simple depolarizing channel on single- and two-qubit gates.
