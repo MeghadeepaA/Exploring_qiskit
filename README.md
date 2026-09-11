@@ -29,5 +29,9 @@ How to run
    .venv\Scripts\activate         # on Windows (PowerShell)
 
    pip install --upgrade pip
-pip install qiskit qiskit-aer numpy matplotlib jupyterlab
+   pip install qiskit qiskit-aer numpy matplotlib jupyterlab
+   jupyter lab
+   # or
+   jupyter notebook
+
 
